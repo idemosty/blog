@@ -16,6 +16,10 @@ const routes = [
     path: "/add",
     name: "add",
     component: () => import("./components/AddTip")
+  },
+  {
+    path: "/:catchAll(.*)",
+    component: () => import("./components/NotFound")
   }
 ];
 
