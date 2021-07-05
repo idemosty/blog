@@ -18,18 +18,18 @@ select * from tips;
 
 ```json
 [
-	{
-		"title": "CSS Tips - Center element",
-		"description": "How to center an element with css"
-	},
-	{
-		"title": "CSS Tips - Superscript element",
-		"description": "Display text as superscript"
-	},
-	{
-		"title": "CSS Tips - Smooth animation",
-		"description": "How to apply an smooth animation on scrolling",
-		"published": true
-	}
+  {
+    "title": "CSS Tips - Center element",
+    "description": "How to center an element with css"
+  },
+  {
+    "title": "CSS Tips - Superscript element",
+    "description": "Display text as superscript"
+  },
+  {
+    "title": "CSS Tips - Smooth animation",
+    "description": "How to apply an smooth animation on scrolling",
+    "published": true
+  }
 ]
 ```

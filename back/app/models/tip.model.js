@@ -1,13 +1,13 @@
 module.exports = (sequelize, Sequelize) => {
-  const Tip = sequelize.define("tip", {
+  const Tip = sequelize.define('tip', {
     title: {
-      type: Sequelize.STRING
+      type: Sequelize.STRING,
     },
     description: {
-      type: Sequelize.STRING
+      type: Sequelize.STRING,
     },
     published: {
-      type: Sequelize.BOOLEAN
+      type: Sequelize.BOOLEAN,
     },
   })
 
